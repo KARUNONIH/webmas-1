@@ -1,0 +1,60 @@
+body{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+header h1{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+header ul li{
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+header ul li:hover{
+    text-decoration: underline;
+}
+
+header ul{
+    display: flex;
+    gap: 20px;
+}
+
+.menu{
+    display:flex;
+    align-items: center;
+    gap: 16px
+}
+
+.search-bar{
+    display:flex;
+    align-items: center;
+    gap: 8px;
+    background:rgb(234, 237, 241);
+    width: max-content;
+    padding: 4px 16px;
+    border-radius: 4px;
+}
+
+.search-bar input{
+    border: none;
+    background: none;
+    width:160px;
+}
+
+.sub-menu{
+    display: flex;
+    gap: 8px;
+}
+
